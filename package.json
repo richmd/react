@@ -1,0 +1,46 @@
+{
+  "name": "@richmd/react",
+  "version": "0.1.0",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.jsx",
+      "require": "./dist/index.umd.jsx"
+    }
+  },
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "prepare": "pnpm build"
+  },
+  "dependencies": {
+    "@richmd/core": "^0.1.4",
+    "html-react-parser": "^5.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "author": "nappa <masa.yanagawa721@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richmd/react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/richmd/react.git/issues"
+  },
+  "homepage": "https://github.com/richmd/react.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  }
+}
