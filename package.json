@@ -1,6 +1,6 @@
 {
   "name": "@richmd/react",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "It is a react package of Richmd.",
   "exports": {
     ".": {
@@ -21,12 +21,6 @@
     "build": "vite build && tsc",
     "prepare": "pnpm build"
   },
-  "dependencies": {
-    "@richmd/core": "^0.1.5",
-    "html-react-parser": "^5.2.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
   "keywords": [],
   "author": "nappa <masa.yanagawa721@gmail.com>",
   "repository": {
@@ -38,6 +32,12 @@
   },
   "homepage": "https://github.com/richmd/react.git",
   "license": "MIT",
+  "dependencies": {
+    "@richmd/core": "^0.2.0",
+    "html-react-parser": "^5.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",

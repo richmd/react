@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@richmd/core':
-        specifier: ^0.1.5
-        version: 0.1.5
+        specifier: ^0.2.0
+        version: 0.2.0
       html-react-parser:
         specifier: ^5.2.2
         version: 5.2.2(@types/react@19.0.12)(react@19.0.0)
@@ -378,8 +378,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@richmd/core@0.1.5':
-    resolution: {integrity: sha512-EoKetGibTEjjJGWo3lavvu0rDSdazOG2BjR0/mcEqI8kkr5dXCGSYobde497BJOqugHpLh8g0e3To4oEsl5ipg==}
+  '@richmd/core@0.2.0':
+    resolution: {integrity: sha512-rNkGUkcgKE7Ifq1Xtael7IzuLcig5AFF6gd4xx9CjW+G2cNFMqmoJEP8+gE3fBmD8xP4QhPgu3ypz/WU+nTaLA==}
 
   '@rollup/rollup-android-arm-eabi@4.36.0':
     resolution: {integrity: sha512-jgrXjjcEwN6XpZXL0HUeOVGfjXhPyxAbbhD0BlXUB+abTOpbPiN5Wb3kOT7yb+uEtATNYF5x5gIfwutmuBA26w==}
@@ -1416,7 +1416,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@richmd/core@0.1.5':
+  '@richmd/core@0.2.0':
     dependencies:
       highlight.js: 11.11.1
       katex: 0.16.21
