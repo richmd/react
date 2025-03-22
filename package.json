@@ -1,18 +1,24 @@
 {
   "name": "@richmd/react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "It is a react package of Richmd.",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.es.jsx",
       "require": "./dist/index.umd.jsx"
+    },
+    "./dist/index.d.ts": {
+      "import": "./dist/index.d.ts",
+      "require": "./dist/index.d.ts"
     }
   },
+  "types": "./dist/index.d.ts",
   "files": [
     "./dist"
   ],
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && tsc",
     "prepare": "pnpm build"
   },
   "dependencies": {
