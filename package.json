@@ -1,6 +1,7 @@
 {
   "name": "@richmd/react",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "It is a react package of Richmd.",
   "exports": {
     ".": {
       "import": "./dist/index.es.jsx",
@@ -15,11 +16,12 @@
     "prepare": "pnpm build"
   },
   "dependencies": {
-    "@richmd/core": "^0.1.4",
+    "@richmd/core": "^0.1.5",
     "html-react-parser": "^5.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
+  "keywords": [],
   "author": "nappa <masa.yanagawa721@gmail.com>",
   "repository": {
     "type": "git",
