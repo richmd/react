@@ -1,6 +1,6 @@
 {
   "name": "@richmd/react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It is a react package of Richmd.",
   "exports": {
     ".": {
@@ -21,7 +21,14 @@
     "build": "vite build && tsc",
     "prepare": "pnpm build"
   },
-  "keywords": [],
+  "keywords": [
+    "markdown",
+    "frontend",
+    "richmd",
+    "katex",
+    "html",
+    "react"
+  ],
   "author": "nappa <masa.yanagawa721@gmail.com>",
   "repository": {
     "type": "git",
