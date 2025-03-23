@@ -6,13 +6,13 @@ React component for [Richmd](https://github.com/richmd/core) - a tool for creati
 
 ```bash
 # Using npm
-npm install @richmd/core @richmd/react
+npm install @richmd/react
 
 # Using yarn
-yarn add @richmd/core @richmd/react
+yarn add @richmd/react
 
 # Using pnpm
-pnpm add @richmd/core @richmd/react
+pnpm add @richmd/react
 ```
 
 ## Usage with Next.js (App Router)
@@ -22,7 +22,7 @@ pnpm add @richmd/core @richmd/react
 First, import the required CSS in your root layout file (`app/layout.tsx`):
 
 ```tsx
-import "@richmd/core/dist/richmd.css";
+import "@richmd/react/dist/richmd.css";
 
 export default function RootLayout({
   children,
