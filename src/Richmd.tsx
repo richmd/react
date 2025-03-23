@@ -1,5 +1,5 @@
 import React from "react";
-import { richmd } from "@richmd/core";
+import { richmd } from "@richmd/js";
 import parse from "html-react-parser"
 
 type RichmdProps = {

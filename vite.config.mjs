@@ -7,6 +7,7 @@ export default defineConfig({
       entry: path.resolve(__dirname, "src/index.tsx"),
       name: "richmd.react",
       fileName: (format) => `index.${format}.jsx`,
+      cssFileName: "richmd",
     },
     rollupOptions: {
       external: [
