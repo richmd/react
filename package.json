@@ -1,12 +1,16 @@
 {
   "name": "@richmd/react",
-  "version": "1.1.0-alpha.0",
+  "version": "1.1.0-alpha.1",
   "description": "It is a react package of Richmd.",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.es.jsx",
       "require": "./dist/index.umd.jsx"
+    },
+    "./dist/richmd.css": {
+      "import": "./dist/richmd.css",
+      "require": "./dist/richmd.css"
     },
     "./dist/index.d.ts": {
       "import": "./dist/index.d.ts",
