@@ -44,7 +44,7 @@
   "homepage": "https://github.com/richmd/react.git",
   "license": "MIT",
   "dependencies": {
-    "@richmd/core": "^3.0.1",
+    "@richmd/core": "^3.1.0",
     "@richmd/js": "^1.0.0",
     "html-react-parser": "^5.2.2",
     "react": "^19.0.0",
