@@ -1,5 +1,9 @@
 # @richmd/react
 
+![NPM License](https://img.shields.io/npm/l/%40richmd%2Freact)
+![NPM Version](https://img.shields.io/npm/v/%40richmd%2Freact)
+![NPM Downloads](https://img.shields.io/npm/dw/%40richmd%2Freact)
+
 React component for [Richmd](https://github.com/richmd/core) - a tool for creating rich content with Markdown.
 
 ## Installation
