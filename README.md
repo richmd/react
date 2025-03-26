@@ -112,7 +112,39 @@ export default function MarkdownEditor() {
 }
 ```
 
+### 4. Use the RichmdSlide component (optional)
+
+You can use the `RichmdSlide` component to create slide-style Markdown presentations. Here's an example:
+
+```tsx
+"use client";
+
+import { RichmdSlide } from "@richmd/react";
+
+export default function SlideShow() {
+  const markdownSlides = [
+    `# Slide 1
+Welcome to **RichmdSlide**!`,
+    `# Slide 2
+- Create slides easily
+- Supports Markdown syntax`,
+    `# Slide 3
+> "Markdown made interactive!"`,
+  ];
+
+  return (
+    <div className="slideshow-container">
+      <RichmdSlide text={markdownSlides.join("\n---\n")} isController={true} />
+    </div>
+  );
+}
+```
+
+In this example, `---` is used to separate slides. Setting the `isController` property to `true` enables the slide controller.
+
 ## Component API
+
+### `Richmd`
 
 The `Richmd` component accepts the following props:
 
@@ -121,6 +153,16 @@ The `Richmd` component accepts the following props:
 | `text` | string | Yes | The markdown text to render |
 | `id` | string | No | HTML id attribute for the container div |
 | `className` | string | No | CSS class name for the container div |
+
+
+### `RichmdSlide`
+
+The `RichmdSlide` component accepts the following props:
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `text` | string | Yes | The markdown text to render |
+| `isController` | boolean | Yes | Toggles the display of the slide controller |
 
 ## Supported Markdown Features
 
@@ -141,7 +183,8 @@ Richmd supports a wide range of markdown features:
 - Video (HTML5 video tag)
 - Custom HTML tags
 
-For detailed syntax documentation, refer to the [Richmd Markdown Syntax Documentation](https://github.com/richmd/core/blob/main/docs/md-syntax.md).
+For detailed syntax documentation, refer to the [Richmd Markdown Syntax Documentation](./docs/md-syntax.md).
+
 
 ## License
 
