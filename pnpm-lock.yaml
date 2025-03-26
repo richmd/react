@@ -12,8 +12,8 @@ importers:
         specifier: ^1.2.6
         version: 1.2.6(react@19.0.0)
       '@richmd/js':
-        specifier: 2.0.0
-        version: 2.0.0
+        specifier: 2.0.1
+        version: 2.0.1
       html-react-parser:
         specifier: ^5.2.2
         version: 5.2.2(@types/react@19.0.12)(react@19.0.0)
@@ -389,8 +389,8 @@ packages:
   '@richmd/core@4.0.0':
     resolution: {integrity: sha512-8cUOfweArLI+7X5cKmexziqyzIwtLyhXj61lQ0e0b+fIE1ZY/vNnX1PE6wiyqt1TcyEREvPYVb2W6yKUN+A5Ow==}
 
-  '@richmd/js@2.0.0':
-    resolution: {integrity: sha512-T1ZyC4CZQXCMYJdZvN0tdgMSseuGY+JVqBrXe9ze0VYPzcRA4Otnmvgs0y89GdwZ2Y1K3/Bswt1v/VvoNAgFoA==}
+  '@richmd/js@2.0.1':
+    resolution: {integrity: sha512-MRj2gkkY1UNsex/LbjSfBLesGPNTISbvcaAgbkQRQsajd+cLiaoq0Mq+YOGz4jWHpHFTwNGv7zt6LAN1+N81SA==}
 
   '@rollup/rollup-android-arm-eabi@4.36.0':
     resolution: {integrity: sha512-jgrXjjcEwN6XpZXL0HUeOVGfjXhPyxAbbhD0BlXUB+abTOpbPiN5Wb3kOT7yb+uEtATNYF5x5gIfwutmuBA26w==}
@@ -1457,7 +1457,7 @@ snapshots:
       katex: 0.16.21
       typescript: 5.8.2
 
-  '@richmd/js@2.0.0':
+  '@richmd/js@2.0.1':
     dependencies:
       '@richmd/core': 4.0.0
       highlight.js: 11.11.1
