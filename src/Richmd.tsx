@@ -9,9 +9,11 @@ type RichmdProps = {
 }
 
 export const Richmd: React.FC<RichmdProps> = ({ text, id = "", className = "" }) => {
+  const { html } = richmd(text);
+
   return (
     <div id={id} className={className}>
-      {parse(richmd(text))}
+      {parse(html)}
     </div>
   );
 };
