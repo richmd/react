@@ -1,6 +1,6 @@
 {
   "name": "@richmd/react",
-  "version": "2.0.0-rc.2",
+  "version": "2.0.0-rc.3",
   "description": "It is a react package of Richmd.",
   "exports": {
     ".": {
@@ -45,7 +45,7 @@
   "license": "MIT",
   "dependencies": {
     "@react-hook/event": "^1.2.6",
-    "@richmd/js": "2.0.2",
+    "@richmd/js": "2.0.3-rc.0",
     "html-react-parser": "^5.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
