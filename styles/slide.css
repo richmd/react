@@ -29,12 +29,14 @@
 
 .richmd-slide .slide-layout-left {
   flex-direction: column;
-  align-items: flex-start;
+  align-items: normal;
+  text-align: left;
 }
 
 .richmd-slide .slide-layout-right {
   flex-direction: column;
-  align-items: flex-end;
+  align-items: normal;
+  text-align: right;
 }
 
 .richmd-slide .default-theme {
@@ -140,7 +142,8 @@
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   cursor: text;
-  position: relative; }
+  position: relative;
+}
 
 .richmd-slide .h1 tt, .richmd-slide .h1 code {
   font-size: inherit; 
@@ -167,11 +170,11 @@
 }
 
 .richmd-slide .h1 {
-  font-size: 72px;
+  font-size: 92px;
 }
 
 .richmd-slide .h2 {
-  font-size: 64px;
+  font-size: 84px;
   padding-bottom: 5px;
   border-bottom: 1px solid #cccccc;
 }
@@ -383,6 +386,16 @@
   border-radius: 10px;
   position: relative;
   min-width: calc(100vw - 350px);
+  text-align: left;
+}
+
+.richmd-slide .code {
+  color: #fff;
+  border: none;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 0 20px 20px;
+  width: 350px;
 }
 
 .richmd-slide .filename {
@@ -396,15 +409,6 @@
   border-radius: 5px 0 5px 0;
 }
 
-.richmd-slide .code {
-  color: #fff;
-  border: none;
-  font-size: 30px;
-  line-height: 40px;
-  padding: 0 20px 20px;
-  width: 350px;
-}
-
 .richmd-slide .checklist {
   list-style-type: none;
   padding: 0;
@@ -415,7 +419,7 @@
 }
 
 .richmd-slide .math {
-  background-color: #fff;
+  background-color: inherit;
   border: none;
   padding: 5px 16px;
 }
