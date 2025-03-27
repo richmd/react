@@ -121,26 +121,61 @@ You can use the `RichmdSlide` component to create slide-style Markdown presentat
 
 import { RichmdSlide } from "@richmd/react";
 
-export default function SlideShow() {
-  const markdownSlides = [
-    `# Slide 1
-Welcome to **RichmdSlide**!`,
-    `# Slide 2
-- Create slides easily
-- Supports Markdown syntax`,
-    `# Slide 3
-> "Markdown made interactive!"`,
-  ];
+const md = `:use slide:
 
+:---:title.sunset
+# title
+
+subtext
+:---:
+
+# title
+
+:<--:content.sunset
+# Subtitle
+
+subtext
+
+*subtext*
+:---:
+
+:<--:content.sunset
+# List
+
+- List
+- List
+  - List
+  - List
+    - List
+- List
+:---:
+
+:<--:content.sunset
+# Text
+
+===info
+testtest
+===
+
+\`\`\`js
+const a = 1;
+console.log(a);
+\`\`\`
+
+$$
+f(x) = x^2 + x + 2
+$$
+:---:
+`;
+
+export default function SlideShow() {
   return (
-    <div className="slideshow-container">
-      <RichmdSlide text={markdownSlides.join("\n---\n")} isController={true} />
-    </div>
+    <RichmdSlide text={md} isController={true} />
   );
 }
 ```
 
-In this example, `---` is used to separate slides. Setting the `isController` property to `true` enables the slide controller.
+Setting the `isController` property to `true` enables the slide controller.
 
 ## Component API
 
