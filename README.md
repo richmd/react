@@ -198,6 +198,7 @@ The `RichmdSlide` component accepts the following props:
 |------|------|----------|-------------|
 | `text` | string | Yes | The markdown text to render |
 | `isController` | boolean | Yes | Toggles the display of the slide controller |
+| `pdfDownload` | boolean | No | Switching to PDF distribution mode. (Default: `false`) |
 
 ## Supported Markdown Features
 
