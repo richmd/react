@@ -1,14 +1,17 @@
-import React from "react";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
+import { useState } from "react";
 
 export const usePdf = () => {
+  const [isLoading, setLoading] = useState(false);
+
   const downloadPdf = async (
     slide: string[],
     fileName?: string,
     nextAction?: () => void,
     prevAction?: () => void,
   ) => {
+    setLoading(true);
     const slideLength = slide.length;
 
     if (prevAction) prevAction();
@@ -24,6 +27,7 @@ export const usePdf = () => {
       orientation: "l",
       unit: "px",
       format: [width / 5, height / 5],
+      compress: true,
     });
 
     for (let i = 1; i <= slideLength; i++) {
@@ -40,6 +44,7 @@ export const usePdf = () => {
       if (i !== slideLength) pdf.addPage();
     }
     pdf.save(fileName ?? "richmd_slide.pdf");
+    setLoading(false);
   };
-  return { downloadPdf };
+  return { downloadPdf, isLoading };
 };
