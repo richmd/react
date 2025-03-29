@@ -170,11 +170,11 @@
 }
 
 .richmd-slide .h1 {
-  font-size: 92px;
+  font-size: 64px;
 }
 
 .richmd-slide .h2 {
-  font-size: 84px;
+  font-size: 58px;
   padding-bottom: 5px;
   border-bottom: 1px solid #cccccc;
 }
@@ -201,6 +201,8 @@
 }
 
 .richmd-slide .span {
+  width: fit-content;
+  height: fit-content;
   margin: 0;
 }
 
@@ -225,7 +227,7 @@
 .richmd-slide .br {
   display: block;
   content: "";
-  padding: 12px;
+  padding: 0;
   margin: 0;
 }
 
@@ -395,7 +397,7 @@
   font-size: 30px;
   line-height: 40px;
   padding: 0 20px 20px;
-  width: 350px;
+  min-width: 350px;
 }
 
 .richmd-slide .filename {
