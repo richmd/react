@@ -12,9 +12,9 @@
 }
 
 .richmd-slide .slide {
-  width: calc(100vw - 120px);
-  height: calc(100vh - 120px);
-  padding: 60px;
+  width: calc(100vw - 60px);
+  height: calc(100vh - 60px);
+  padding: 30px;
   display: flex;
 }
 
