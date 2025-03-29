@@ -1,6 +1,6 @@
 {
   "name": "@richmd/react",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "It is a react package of Richmd.",
   "exports": {
     ".": {
