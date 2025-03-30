@@ -24,7 +24,8 @@
 
 .richmd-slide .slide-layout-center {
   flex-direction: column;
-  align-items: center;
+  align-items: normal;
+  text-align: center;
 }
 
 .richmd-slide .slide-layout-left {
