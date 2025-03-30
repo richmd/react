@@ -45,7 +45,7 @@
   "license": "MIT",
   "dependencies": {
     "@react-hook/event": "^1.2.6",
-    "@richmd/js": "2.0.10",
+    "@richmd/js": "2.0.11",
     "html-react-parser": "^5.2.2",
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.1",
