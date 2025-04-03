@@ -44,9 +44,29 @@
   background: #ffffff;
 }
 
+.richmd-slide .default-theme .inline-code {
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  color: #24374a;
+}
+
+.richmd-slide .default-theme .a {
+  color: #4183C4;
+}
+
 .richmd-slide .sunset-theme {
   background: radial-gradient(#fec540, #fa709a);
   color: #ffffff;
+}
+
+.richmd-slide .sunset-theme .inline-code {
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  color: #24374a;
+}
+
+.richmd-slide .sunset-theme .a {
+  color: #4183C4;
 }
 
 .richmd-slide .malinka-theme {
@@ -54,13 +74,43 @@
   color: #ffffff;
 }
 
+.richmd-slide .malinka-theme .inline-code {
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  color: #24374a;
+}
+
+.richmd-slide .malinka-theme .a {
+  color: #4183C4;
+}
+
 .richmd-slide .moon-theme {
   background: radial-gradient(#5ee7df, #b490ca);
   color: #ffffff;
 }
 
+.richmd-slide .moon-theme .inline-code {
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  color: #24374a;
+}
+
+.richmd-slide .moon-theme .a {
+  color: #8755ab;
+}
+
 .richmd-slide .darkblue-theme {
   background: radial-gradient(#30cfd0, #330867);
+  color: #ffffff;
+}
+
+.richmd-slide .darkblue-theme .inline-code {
+  border: 1px solid #1a1a1a;
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.richmd-slide .darkblue-theme .a {
   color: #ffffff;
 }
 
@@ -69,13 +119,43 @@
   color: #ffffff;
 }
 
+.richmd-slide .sky-theme .inline-code {
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  color: #24374a;
+}
+
+.richmd-slide .sky-theme .a {
+  color: #ffff00;
+}
+
 .richmd-slide .green-theme {
-  background: radial-gradient(#43e97b, #38f9d7);
+  background: radial-gradient(#25c159, #2dddbd);
   color: #ffffff;
+}
+
+.richmd-slide .green-theme .inline-code {
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  color: #24374a;
+}
+
+.richmd-slide .green-theme .a {
+  color: #ffff00;
 }
 
 .richmd-slide .dark-theme {
   background: radial-gradient(#2a2845, #030033);
+  color: #ffffff;
+}
+
+.richmd-slide .dark-theme .inline-code {
+  border: 1px solid #1a1a1a;
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.richmd-slide .dark-theme .a {
   color: #ffffff;
 }
 
@@ -108,9 +188,6 @@
   margin-bottom: 0 !important; 
 } 
 
-.richmd-slide .a {
-  color: #4183C4;
-}
 .richmd-slide .a.absent {
   color: #cc0000;
 }
@@ -521,9 +598,6 @@
   margin: 0 3px;
   padding: 0 10px;
   white-space: nowrap;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
-  color: #24374a;
   font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace,"Segoe UI Emoji";
   border-radius: 9px;
 }
