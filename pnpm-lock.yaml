@@ -12,8 +12,8 @@ importers:
         specifier: ^1.2.6
         version: 1.2.6(react@19.0.0)
       '@richmd/js':
-        specifier: 2.0.14-rc.7
-        version: 2.0.14-rc.7
+        specifier: 2.0.14
+        version: 2.0.14
       html-react-parser:
         specifier: ^5.2.2
         version: 5.2.2(@types/react@19.0.12)(react@19.0.0)
@@ -396,11 +396,11 @@ packages:
     peerDependencies:
       react: '>=16.8'
 
-  '@richmd/core@4.0.10-rc.2':
-    resolution: {integrity: sha512-CydiXNycWdVjeidpM5uXxhPODk7RMJhu+lzEYgpRYL5A8jxyQR0zs5anWR32BtIxOh8MSGU5iMF+DOLYq8FmRg==}
+  '@richmd/core@4.0.10':
+    resolution: {integrity: sha512-kE+5iVBgJL7FfjZLu4n2ikDBIAYAA4d+75uD7yO6z3AVKXV3aScJ4DjI4HWgp5Z/L0b1V9dLsehZyL+Q9pC4TQ==}
 
-  '@richmd/js@2.0.14-rc.7':
-    resolution: {integrity: sha512-ZYXgtPpB+HzsuVJpHCl9f7wAymOkJsZzOWuuhdgsBwCN/WkjHXxoy3BXuVXjmhNfdl1Z9gCTqAHNO8gsTXXr0g==}
+  '@richmd/js@2.0.14':
+    resolution: {integrity: sha512-hMlwIAXHe6i3b80EhldvFLtjdyL2o3SmxUBB5u2r5XO3i4b0EFMNXOdLERQ1jAFSLQyfQCKjZTTsO3rWfbKpcQ==}
 
   '@rollup/rollup-android-arm-eabi@4.36.0':
     resolution: {integrity: sha512-jgrXjjcEwN6XpZXL0HUeOVGfjXhPyxAbbhD0BlXUB+abTOpbPiN5Wb3kOT7yb+uEtATNYF5x5gIfwutmuBA26w==}
@@ -1538,15 +1538,15 @@ snapshots:
     dependencies:
       react: 19.0.0
 
-  '@richmd/core@4.0.10-rc.2':
+  '@richmd/core@4.0.10':
     dependencies:
       highlight.js: 11.11.1
       katex: 0.16.21
       typescript: 5.8.2
 
-  '@richmd/js@2.0.14-rc.7':
+  '@richmd/js@2.0.14':
     dependencies:
-      '@richmd/core': 4.0.10-rc.2
+      '@richmd/core': 4.0.10
       highlight.js: 11.11.1
       katex: 0.16.21
       node-html-parser: 7.0.1
