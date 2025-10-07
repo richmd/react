@@ -40,6 +40,12 @@
 [name](path)
 ```
 
+### emoji
+```txt
+:tada:
+:smile:
+```
+
 ### List
 ```markdown
 - list1
@@ -166,9 +172,9 @@ This is danger color block.
 ### Dropdown Details
 #### Syntax
 ```txt
-:>Summary
+=>Summary
 text...
-:>
+=>
 ```
 #### Preview
 <img src="./images/preview5.png" width="600">
@@ -185,29 +191,29 @@ It creaties custom HTML Tag.
 
 #### Syntax
 ```txt
-::<Tag Name>[.ClassName]
+<><Tag Name>[.ClassName]
 
-::
+<>
 ```
 
 #### Example
 ```txt
-::menu
+<>menu
 menu
-::
+<>
 
-::article.className
+<>article.className
 article
-::
+<>
 
-::div
+<>div
 div
-::
+<>
 
 # only className
-::.className
+<>.className
 only Class
-::
+<>
 ```
 ##### Preview
 ```html
