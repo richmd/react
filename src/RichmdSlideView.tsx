@@ -11,7 +11,7 @@ type RichmdSlideViewProps = {
 }
 
 export const RichmdSlideView: React.FC<RichmdSlideViewProps> = ({ text, isController = false }) => {
-  const { slide } = richmd(text); 
+  const { slide } = richmd(text, true);
   const [index, setIndex] = useState<number>(0);
   const max = slide.length - 1;
   const view = useMemo(() => parse(slide[index]), [index, slide]);

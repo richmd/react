@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback } from "react";
 import { usePdf } from "./hooks/usePdf";
 import { richmd } from "@richmd/js";
 import parse from "html-react-parser";
@@ -8,7 +8,7 @@ type RichmdSlidePdfProps = {
 }
 
 export const RichmdSlidePdf: React.FC<RichmdSlidePdfProps> = ({ text }) => {
-  const { html, slide } = richmd(text);
+  const { html, slide } = richmd(text, true);
   const { isLoading, downloadPdf } = usePdf();
 
   const onClick = useCallback(() => {
