@@ -1,6 +1,6 @@
 {
   "name": "@richmd/react",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "It is a react package of Richmd.",
   "exports": {
     ".": {
@@ -48,7 +48,7 @@
     "@richmd/js": "3.0.3",
     "html-react-parser": "^5.2.2",
     "html2canvas": "^1.4.1",
-    "jspdf": "^3.0.1",
+    "jspdf": "^4.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -63,6 +63,6 @@
     "globals": "^15.15.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
-    "vite": "^6.2.0"
+    "vite": "^7.3.1"
   }
 }
